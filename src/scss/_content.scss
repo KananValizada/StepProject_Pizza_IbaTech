@@ -1,0 +1,58 @@
+.services {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    height: 74.2px;
+    display: flex;
+    margin-bottom: 2px;
+    color: white;
+
+    &-title {
+      display: flex;
+      width: 262px;
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-padding {
+        padding-left: 25px ;
+        box-sizing:border-box
+    }
+    &-button {
+      display: flex;
+      width: 75px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      background-color: #acd8ad;
+      padding-right: 3px;
+      padding-bottom: 2px;
+      box-sizing: border-box;
+    }
+    &-pizaDeliver {
+        background: url(../img/pizzaDelivery.png);
+        background-repeat: no-repeat;
+    background-position-x: -21px;
+    background-position-y: -234px;
+      
+    }
+    &-salad {
+      background: url(../img/salad.png);
+      background-repeat: no-repeat;
+      background-position-x: 0px;
+      background-position-y: -165px;
+    }
+    &-desert {
+      background: url(../img/desert.png);
+      background-repeat: no-repeat;
+      background-position-x: 0px;
+      background-position-y: -27px;
+    }
+  }
+}

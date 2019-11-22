@@ -5,8 +5,12 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Our First Project</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i|Montserrat:400,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i|Montserrat:400,500&display=swap" rel="stylesheet"> 
+   <link rel="stylesheet" href="scss/_reset.css">
+  <link rel="stylesheet" href="scss/_header.css">
+  <link rel="stylesheet" href="scss/_content.css">
+
 
 </head>
 <body>
@@ -23,6 +27,19 @@
   <h3 class="header__content-title">And pizza. Pizza is good</h3>
   <a href="#" class="header__content-site">www.new-pizza.com</a>
 </div>
-<script src="js/script.js"></script>
+<div class="services">
+  <div class="services__item services__item-pizaDeliver">
+    <h3 class="services__item-title ">Pizza Delivery</h3>
+    <a href="#" class="services__item-button"><i class="fas fa-chevron-right"></i></a>
+  </div>
+  <div class="services__item services__item-salad">
+    <h3 class="services__item-title services__item-padding ">UA/UX Salads</h3>
+    <a href="#" class="services__item-button"><i class="fas fa-chevron-right"></i></a>
+  </div>
+  <div class="services__item services__item-desert">
+    <h3 class="services__item-title ">Desserts</h3>
+    <a href="#" class="services__item-button"><i class="fas fa-chevron-right"></i></a>
+  </div>
+</div>
 </body>
 </html>
