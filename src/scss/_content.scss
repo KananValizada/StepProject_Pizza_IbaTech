@@ -1,58 +1,138 @@
 .services {
-  display: flex;
-  flex-direction: column;
-
-  &__item {
-    height: 74.2px;
     display: flex;
-    margin-bottom: 2px;
-    color: white;
+    flex-direction: column;
+    &__item {
+        height: 74.4px;
+        display: flex;
+        margin-bottom: 2px;
+        color: white;
+        &-title {
+            display: flex;
+            width: 262px;
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-padding {
+            padding-left: 25px;
+            box-sizing: border-box
+        }
+        &-button {
+            display: flex;
+            width: 75px;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            background-color: #acd8ad;
+            padding-right: 3px;
+            padding-bottom: 2px;
+            box-sizing: border-box;
+        }
+        &-pizaDeliver {
+            background: url(../img/pizzaDelivery.png);
+            background-repeat: no-repeat;
+            background-position-x: -21px;
+            background-position-y: -234px;
+        }
+        &-salad {
+            background: url(../img/salad.png);
+            background-repeat: no-repeat;
+            background-position-x: 0px;
+            background-position-y: -165px;
+        }
+        &-desert {
+            background: url(../img/desert.png);
+            background-repeat: no-repeat;
+            background-position-x: 0px;
+            background-position-y: -27px;
+        }
+    }
+}
 
-    &-title {
-      display: flex;
-      width: 262px;
-      font-family: "Lato", sans-serif;
-      font-size: 20px;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.menu {
+    display: flex;
+    flex-direction: column;
+    &__header {
+        padding-top: 22px;
+        padding-left: 9px;
+        display: flex;
+        flex-direction: column;
+        &-title {
+            font-size: 15pt;
+            color: #3f4043;
+            font-weight: 400;
+            text-shadow: 0px 0px 0px #3f4043;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            padding-bottom: 2px;
+        }
+        &-subtitle {
+            color: #d9dadb;
+            font-size: 7.5pt;
+            font-family: 'Lato', sans-serif;
+        }
     }
-    &-padding {
-        padding-left: 25px ;
-        box-sizing:border-box
+    &__subheader {
+        margin-top: 11px;
+        &-title {
+            padding: 9px 19px;
+            background-color: #3f4043;
+            color: #acd8ad;
+            font-size: 15pt;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+        }
+        &-titleStyle2 {
+            background-color: #acd8ad;
+            color: white
+        }
+        &-sect {
+            font-size: 15px;
+            text-transform: uppercase;
+            padding: 16px 18px;
+            position: relative;
+            font-family: 'Lato', sans-serif;
+            &-img {
+                position: absolute;
+                right: 15px;
+                bottom: 11px;
+            }
+            &-imgGlass {
+                position: absolute;
+                right: 21px;
+                bottom: 11px;
+            }
+        }
     }
-    &-button {
-      display: flex;
-      width: 75px;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      color: white;
-      font-size: 16px;
-      background-color: #acd8ad;
-      padding-right: 3px;
-      padding-bottom: 2px;
-      box-sizing: border-box;
+    &__subheader2 {
+        padding-top: 15px;
     }
-    &-pizaDeliver {
-        background: url(../img/pizzaDelivery.png);
-        background-repeat: no-repeat;
-    background-position-x: -21px;
-    background-position-y: -234px;
-      
+    &__contents {
+        padding: 6px 16px 0px 17px;
+        font-family: 'Lato', sans-serif;
+        color: #3f4043;
+        text-shadow: 0px 0px 0px #3f4043;
+        &-title {
+            position: relative;
+            font-size: 14px;
+            padding-bottom: 7px;
+            &-prise {
+                position: absolute;
+                font-weight: 700;
+                right: 0px;
+            }
+        }
+        &-text {
+            font-size: 9px;
+            padding-left: 2px;
+            padding-bottom: 3px;
+            word-spacing: 1.2px;
+            line-height: 10px;
+        }
     }
-    &-salad {
-      background: url(../img/salad.png);
-      background-repeat: no-repeat;
-      background-position-x: 0px;
-      background-position-y: -165px;
-    }
-    &-desert {
-      background: url(../img/desert.png);
-      background-repeat: no-repeat;
-      background-position-x: 0px;
-      background-position-y: -27px;
-    }
-  }
 }
