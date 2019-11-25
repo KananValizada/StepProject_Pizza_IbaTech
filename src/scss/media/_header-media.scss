@@ -1,0 +1,16 @@
+@media only screen and (min-width: 641px) {
+    .navbar {
+        padding: 0 3.2% 0 3%;
+        &__title,
+        &__burger {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar__menu,
+    .navbar__img {
+        display: none;
+    }
+}

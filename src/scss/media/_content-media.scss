@@ -1,0 +1,107 @@
+@media only screen and (min-width: 325px) {
+    .services__item {
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .services {
+        flex-direction: row;
+        &__item {
+            width: 34%;
+            padding: 5.3% 0;
+            &-title {
+                margin: 0 auto;
+                font-size: 4vw;
+            }
+            &-button {
+                display: none;
+            }
+            &-padding {
+                padding: 0;
+            }
+        }
+    }
+    .menu {
+        &__header {
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 4.9%;
+            padding-left: 2.3%;
+            &-title {
+                padding-top: 2.2vw;
+                font-size: 3.51vw;
+                padding-bottom: 0.7vw;
+            }
+            &-subtitle {
+                font-size: 2.1vw;
+            }
+        }
+        &__lists {
+            display: flex;
+        }
+        &__subheader {
+            &-title {
+                padding: 2.7% 4%;
+                font-size: 3.4vw
+            }
+            &-sect {
+                font-size: 2.62vw;
+                padding: 4.6vw 1.7vw;
+                &-img {
+                    right: 1.2%;
+                    bottom: 29%;
+                    width: 5vw;
+                }
+                &-imgGlass {
+                    right: 1.3vw;
+                    bottom: 4vw;
+                    width: 2.5vw;
+                }
+            }
+        }
+        &__subheader2 {
+            padding: 0;
+        }
+        &__contents {
+            padding-left: 1.2vw;
+            padding-right: 1.2vw;
+            &-title {
+                font-size: 2.6vw;
+                padding-bottom: 1.44%;
+            }
+            &-text {
+                font-size: 1.81vw;
+                padding-left: 0.9vw;
+                padding-bottom: 2.4vw;
+                word-spacing: -0.05vw;
+                line-height: 2.3vw;
+            }
+        }
+    }
+    .footer {
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2vw;
+        &__text {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .menu {
+        &__header {
+            &-img {
+                display: none;
+            }
+        }
+    }
+    .footer {
+        &__img {
+            display: none;
+        }
+    }
+}

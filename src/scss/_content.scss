@@ -2,54 +2,54 @@
     display: flex;
     flex-direction: column;
     &__item {
-        height: 74.4px;
+        height: 23.3vw;
         display: flex;
-        margin-bottom: 2px;
+        margin-bottom: 0.8vw;
         color: white;
         &-title {
             display: flex;
-            width: 262px;
+            width: 81%;
             font-family: "Lato", sans-serif;
-            font-size: 20px;
+            font-size: 6.3vw;
             text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         &-padding {
-            padding-left: 25px;
+            padding-left: 7vw;
             box-sizing: border-box
         }
         &-button {
             display: flex;
-            width: 75px;
+            width: 23%;
             justify-content: center;
             align-items: center;
             text-decoration: none;
             color: white;
-            font-size: 16px;
+            font-size: 4vw;
             background-color: #acd8ad;
-            padding-right: 3px;
-            padding-bottom: 2px;
+            padding-right: 0.5vw;
+            padding-bottom: 0.6vw;
             box-sizing: border-box;
         }
         &-pizaDeliver {
             background: url(../img/pizzaDelivery.png);
             background-repeat: no-repeat;
-            background-position-x: -21px;
-            background-position-y: -234px;
+            background-position-x: -47%;
+            background-position-y: 94%;
         }
         &-salad {
             background: url(../img/salad.png);
             background-repeat: no-repeat;
             background-position-x: 0px;
-            background-position-y: -165px;
+            background-position-y: 92%;
         }
         &-desert {
             background: url(../img/desert.png);
             background-repeat: no-repeat;
             background-position-x: 0px;
-            background-position-y: -27px;
+            background-position-y: 15%;
         }
     }
 }
@@ -58,69 +58,73 @@
     display: flex;
     flex-direction: column;
     &__header {
-        padding-top: 22px;
-        padding-left: 9px;
+        padding-top: 6%;
+        padding-left: 2%;
         display: flex;
         flex-direction: column;
         &-title {
-            font-size: 15pt;
+            font-size: 6.3vw;
             color: #3f4043;
             font-weight: 400;
             text-shadow: 0px 0px 0px #3f4043;
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
-            padding-bottom: 2px;
+            padding-bottom: 0.6vw;
         }
         &-subtitle {
             color: #d9dadb;
-            font-size: 7.5pt;
+            font-size: 3.3vw;
             font-family: 'Lato', sans-serif;
         }
     }
     &__subheader {
-        margin-top: 11px;
+        margin-top: 3.7%;
         &-title {
-            padding: 9px 19px;
+            padding: 2.8% 5.6%;
             background-color: #3f4043;
             color: #acd8ad;
-            font-size: 15pt;
+            font-size: 6.27vw;
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
         }
         &-titleStyle2 {
             background-color: #acd8ad;
-            color: white
+            color: white;
+            padding: 3% 5.7%;
         }
         &-sect {
-            font-size: 15px;
+            font-size: 4.7vw;
             text-transform: uppercase;
-            padding: 16px 18px;
+            padding: 5vw 5.5vw;
             position: relative;
             font-family: 'Lato', sans-serif;
             &-img {
                 position: absolute;
-                right: 15px;
-                bottom: 11px;
+                right: 5.2%;
+                bottom: 26%;
+                width: 8vw;
             }
             &-imgGlass {
                 position: absolute;
-                right: 21px;
-                bottom: 11px;
+                right: 7.3vw;
+                bottom: 3vw;
+                width: 4vw;
             }
         }
     }
     &__subheader2 {
-        padding-top: 15px;
+        padding-top: 4.5%;
     }
     &__contents {
-        padding: 6px 16px 0px 17px;
+        padding: 1.8vw 5vw 0px 5.1vw;
         font-family: 'Lato', sans-serif;
+        word-spacing: -0.35vw;
         color: #3f4043;
         text-shadow: 0px 0px 0px #3f4043;
         &-title {
             position: relative;
-            font-size: 14px;
-            padding-bottom: 7px;
+            font-size: 4.4vw;
+            padding-bottom: 2.44%;
             &-prise {
                 position: absolute;
                 font-weight: 700;
@@ -128,11 +132,11 @@
             }
         }
         &-text {
-            font-size: 9px;
-            padding-left: 2px;
-            padding-bottom: 3px;
-            word-spacing: 1.2px;
-            line-height: 10px;
+            font-size: 2.81vw;
+            padding-left: 0.6vw;
+            padding-bottom: 0.92vw;
+            word-spacing: 0.38vw;
+            line-height: 3.3vw;
         }
     }
 }

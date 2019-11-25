@@ -1,0 +1,14 @@
+.footer {
+    background-color: #acd8ad;
+    color: white;
+    margin-top: 45px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    &__slogan {
+        padding-bottom: 6px;
+    }
+}
