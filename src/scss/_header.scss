@@ -23,11 +23,48 @@
         align-self: flex-end;
         padding: 4% 4% 4% 4%;
         background-color: #202529;
+        position: relative;
         &-line {
             width: 5vw;
             height: 0.6vw;
             margin-bottom: 0.6vw;
             background-color: white;
+        }
+        &:hover {
+            .navbar__burger-lineSect {
+                opacity: 0;
+            }
+            .navbar__burger-lineFirst {
+                width: 6vw;
+                transform: rotate(45deg) translate(23%, 75%);
+            }
+            .navbar__burger-lineThird {
+                width: 6vw;
+                transform: rotate(-45deg) translate(19%, -75%);
+            }
+            .navbar__burger-menu {
+                opacity: 1;
+                transition: 1s opacity;
+            }
+        }
+        &-menu {
+            background-color: white;
+            position: absolute;
+            bottom: -50.5vw;
+            font-size: 3.69vw;
+            line-height: 10vw;
+            width: 58vw;
+            opacity: 0;
+            left: -44.6vw;
+            z-index: 1;
+            font-family: 'Lato', sans-serif;
+            li:nth-child(even) {
+                background-color: #f5f5f5;
+            }
+            ;
+            li {
+                padding: 0 0 0 12px;
+            }
         }
     }
     &__menu {
@@ -63,8 +100,8 @@
     padding-left: 6.4vw;
     letter-spacing: 0.68px;
     word-spacing: -0.4px;
-    padding-bottom: 29vw;
-    margin-bottom: 3px;
+    padding-bottom: 28.8vw;
+    margin-bottom: 5px;
     &-title {
         color: white;
         font-size: 4.55vw;
