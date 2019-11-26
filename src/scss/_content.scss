@@ -1,11 +1,13 @@
 .services {
     display: flex;
     flex-direction: column;
+
     &__item {
         height: 23.3vw;
         display: flex;
         margin-bottom: 0.8vw;
         color: white;
+
         &-title {
             display: flex;
             width: 81%;
@@ -16,10 +18,19 @@
             justify-content: center;
             align-items: center;
         }
-        &-padding {
-            padding-left: 7vw;
-            box-sizing: border-box
+
+        &-transformPiza {
+            transform: translate(2px, -1px);
         }
+
+        &-transformSalad {
+            transform: translate(12px, 0px);
+        }
+
+        &-transformDesert {
+            transform: translate(-3px, -2px);
+        }
+
         &-button {
             display: flex;
             width: 23%;
@@ -33,18 +44,21 @@
             padding-bottom: 0.6vw;
             box-sizing: border-box;
         }
+
         &-pizaDeliver {
             background: url(../img/pizzaDelivery.png);
             background-repeat: no-repeat;
             background-position-x: -47%;
             background-position-y: 94%;
         }
+
         &-salad {
             background: url(../img/salad.png);
             background-repeat: no-repeat;
             background-position-x: 0px;
             background-position-y: 92%;
         }
+
         &-desert {
             background: url(../img/desert.png);
             background-repeat: no-repeat;
@@ -57,11 +71,13 @@
 .menu {
     display: flex;
     flex-direction: column;
+
     &__header {
         padding-top: 6%;
         padding-left: 2%;
         display: flex;
         flex-direction: column;
+
         &-title {
             font-size: 6.3vw;
             color: #3f4043;
@@ -71,14 +87,18 @@
             font-family: 'Lato', sans-serif;
             padding-bottom: 0.6vw;
         }
+
         &-subtitle {
+            padding-left: 3px;
             color: #d9dadb;
-            font-size: 3.3vw;
+            font-size: 3.15vw;
             font-family: 'Lato', sans-serif;
         }
     }
+
     &__subheader {
         margin-top: 3.7%;
+
         &-title {
             padding: 2.8% 5.6%;
             background-color: #3f4043;
@@ -87,50 +107,69 @@
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
         }
+
         &-titleStyle2 {
             background-color: #acd8ad;
             color: white;
             padding: 3% 5.7%;
         }
+
         &-sect {
             font-size: 4.7vw;
             text-transform: uppercase;
             padding: 5vw 5.5vw;
             position: relative;
             font-family: 'Lato', sans-serif;
+
             &-img {
                 position: absolute;
                 right: 5.2%;
                 bottom: 26%;
                 width: 8vw;
             }
+
             &-imgGlass {
                 position: absolute;
                 right: 7.3vw;
                 bottom: 3vw;
                 width: 4vw;
             }
+
+            &-imgBeer {
+                transform: translate(-4px, 0px);
+                width: 6.8%;
+            }
+
+            &-imgCup {
+                width: 9vw;
+                transform: translate(1px, -3px);
+            }
         }
     }
+
     &__subheader2 {
         padding-top: 4.5%;
     }
+
     &__contents {
         padding: 1.8vw 5vw 0px 5.1vw;
         font-family: 'Lato', sans-serif;
-        word-spacing: -0.35vw;
+        word-spacing: -0.3vw;
         color: #3f4043;
         text-shadow: 0px 0px 0px #3f4043;
+
         &-title {
             position: relative;
-            font-size: 4.4vw;
+            font-size: 4.39vw;
             padding-bottom: 2.44%;
+
             &-prise {
                 position: absolute;
                 font-weight: 700;
                 right: 0px;
             }
         }
+
         &-text {
             font-size: 2.81vw;
             padding-left: 0.6vw;
