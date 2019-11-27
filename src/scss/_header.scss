@@ -43,19 +43,18 @@
                 transform: rotate(-45deg) translate(19%, -75%);
             }
             .navbar__burger-menu {
-                opacity: 1;
-                transition: 1s opacity;
+                display: block;
             }
         }
         &-menu {
             background-color: white;
             position: absolute;
             bottom: -50.5vw;
-            font-size: 3.69vw;
+            font-size: 3.7vw;
             line-height: 10vw;
             width: 58vw;
-            opacity: 0;
-            left: -44.6vw;
+            display: none;
+            left: -43.4vw;
             z-index: 1;
             font-family: 'Lato', sans-serif;
             li:nth-child(even) {
